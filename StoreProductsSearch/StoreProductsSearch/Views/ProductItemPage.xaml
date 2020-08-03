@@ -16,11 +16,7 @@
             <Label Text="Product Location" />
             <Entry Text="{Binding Location}" />
             <Label Text="Product Update Date:" />
-            <DatePicker x:Name="CreateDatePicker"
-                    Format="dd/MM/yy HH:mm:ss"
-                    Margin="30, 0, 0, 30"  
-                    Date="{Binding UpdateDate, Mode=OneWay}"/>
-
+            <Label Text="{Binding UpdateDate, StringFormat='{0:dd MMMM yyyy HH:mm:ss}'}" />
             <Button Text="Save" Clicked="OnSaveClicked" />
             <Button Text="Delete" Clicked="OnDeleteClicked" />
             <Button Text="Cancel" Clicked="OnCancelClicked" />
