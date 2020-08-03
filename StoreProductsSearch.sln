@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreProductsSearch.Android", "StoreProductsSearch\StoreProductsSearch.Android\StoreProductsSearch.Android.csproj", "{6ECA249B-2DBB-4016-9683-8E28524442B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreProductsSearch", "StoreProductsSearch\StoreProductsSearch\StoreProductsSearch.csproj", "{694A1953-97D0-416C-917E-9EEFBCCFF4CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ECA249B-2DBB-4016-9683-8E28524442B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECA249B-2DBB-4016-9683-8E28524442B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECA249B-2DBB-4016-9683-8E28524442B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6ECA249B-2DBB-4016-9683-8E28524442B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECA249B-2DBB-4016-9683-8E28524442B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ECA249B-2DBB-4016-9683-8E28524442B1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{694A1953-97D0-416C-917E-9EEFBCCFF4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694A1953-97D0-416C-917E-9EEFBCCFF4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694A1953-97D0-416C-917E-9EEFBCCFF4CD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{694A1953-97D0-416C-917E-9EEFBCCFF4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694A1953-97D0-416C-917E-9EEFBCCFF4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694A1953-97D0-416C-917E-9EEFBCCFF4CD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D349BD82-F305-42E4-A93C-8D0432FC64F9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="StoreProductsSearch.ProductItemPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="Name" />
+            <Entry Text="{Binding ProductName}" />
+            <Label Text="Description" />
+            <Entry Text="{Binding Description}" />
+            <Label Text="Product Code" />
+            <Entry Text="{Binding ProductCode}" />
+            <Label Text="Product Location" />
+            <Entry Text="{Binding Location}" />
+            <Label Text="Product Update Date:" />
+            <DatePicker x:Name="CreateDatePicker"
+                    Format="dd/MM/yy HH:mm:ss"
+                    Margin="30, 0, 0, 30"  
+                    Date="{Binding UpdateDate, Mode=OneWay}"/>
+
+            <Button Text="Save" Clicked="OnSaveClicked" />
+            <Button Text="Delete" Clicked="OnDeleteClicked" />
+            <Button Text="Cancel" Clicked="OnCancelClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
